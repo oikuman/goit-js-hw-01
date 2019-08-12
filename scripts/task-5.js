@@ -1,6 +1,10 @@
 "use strict";
 let country = prompt("Enter country");
-country = country.toLowerCase();
+
+if (country!==null) {
+    country = country.toLowerCase();
+}
+
 let price;
 
 switch (country) {
