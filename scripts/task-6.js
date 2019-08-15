@@ -11,7 +11,7 @@ while (input !== null) {
         if (Number.isNaN(num)) {
             alert("Было введено не число, попробуйте еще раз");
         } else {
-            total += Number(input);
+            total += num;
         }
     }
 }
